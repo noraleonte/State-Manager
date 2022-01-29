@@ -20,9 +20,8 @@ const manage = {
   get stateVal() {
     return state;
   },
-  //a generic function that calls the actions
   handleStuff: (eName, action) => {
-    state = { ...action(state[eName]) };
+    state = { ...state, ...action(state[eName]) };
     localStorage.setItem('state', JSON.stringify(state));
     publish(eName, 'State of ' + eName + ' changed');
   },

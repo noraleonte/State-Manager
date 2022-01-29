@@ -1,6 +1,8 @@
-###
+# State manager using pubsub and shopping cart UI
 
-Basic implementation of a state manager using _create-react-app_
+Custom state manager that has a counter implemented. Each time the user adds something to their cart, the number of items is the cart increases. The state of the cart is persistent and will be remembered after the page is closed and reopened.
+
+![image](public\pubsubCart.png)
 
 ## Available Scripts
 
