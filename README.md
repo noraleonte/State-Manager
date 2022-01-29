@@ -1,2 +1,3 @@
 # State-Manager
-First state manager created from scratch
+
+Basic state manager created based on _PubSub_ design pattern
